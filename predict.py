@@ -170,7 +170,7 @@ class Predictor(BasePredictor):
         ),
         hf_lora: str = Input(
             description="HF, Replicate, CivitAI, or URL to a LoRA. Ex: alvdansen/frosting_lane_flux",
-            default=None,
+            default="roelfrenkema/flux1.lora.elonmusk",
         ),
         lora_scale: float = Input(
             description="Scale for the LoRA weights",
